@@ -18,7 +18,7 @@ export module BlockChainModule {
       try {
         console.log('connecting to Fabric network...')
 
-        const identityLabel = 'vscode';
+        const identityLabel = 'isabella';
         let connectionProfile = JSON.parse(fs.readFileSync('/usr/src/app/networkConnection.json', 'utf8'));
 
         let connectionOptions = {
