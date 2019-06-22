@@ -3,7 +3,7 @@
     "appAdmin": "vscode",
     "appAdminSecret": "vscodepw",
     "orgMSPID": "org1msp",
-    "caName": "https://192.168.22.81:30357",
+    "caName": "https://192.168.22.81:",
     "userName": "vscode",
     "gatewayDiscovery": { "enabled": true, "asLocalhost": false }
   }
