@@ -1,9 +1,9 @@
 {
     "connection_file": "/home/bcuser/IBP-MagnetoCorp/networkConnection.json",
-    "appAdmin": "magnetocorp",
-    "appAdminSecret": "magnetocorppw",
-    "orgMSPID": "org1msp",
-    "caName": "https://192.168.22.81:",
-    "userName": "isabella",
+    "appAdmin": "app-admin",
+    "appAdminSecret": "app-adminpw",
+    "orgMSPID": "<Put_MSP_Name_Here",
+    "caName": "https://192.168.22.81:<Put_CA_Port_Here>",
+    "userName": "app-admin",
     "gatewayDiscovery": { "enabled": true, "asLocalhost": false }
   }
