@@ -41,7 +41,7 @@ export module BlockChainModule {
         console.log('Connected to mychannel. ');
 
         // Get the contract we have installed on the peer
-        const contract = await network.getContract('papernet-js', 'org.papernet.commercialpaper');
+        const contract = await network.getContract('papercontract', 'org.papernet.commercialpaper');
 
 
         let networkObj = {
